@@ -1,3 +1,8 @@
+/*
+Name: Eros Lima Coelho
+Student Number: 3151957
+ */
+
 import java.time.LocalDate;
 
 public final class Person implements Comparable<Person> {

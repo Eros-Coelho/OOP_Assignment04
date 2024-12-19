@@ -1,3 +1,8 @@
+/*
+Name: Eros Lima Coelho
+Student Number: 3151957
+ */
+
 import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.HashSet;
