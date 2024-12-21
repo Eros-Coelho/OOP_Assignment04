@@ -19,6 +19,10 @@ public class FriendGroup {
     this.friends = new HashSet<>();
     }
 
+    public Set<Person> getFriends(){
+        return friends;
+    }
+
 //    adds a person object to the set (which does not let repetition occur, therefore if the person already exists, it won't be added again
     public void add(Person person){
     if (person == null){
