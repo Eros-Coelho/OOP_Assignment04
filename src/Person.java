@@ -37,4 +37,14 @@ public final class Person implements Comparable<Person> {
     public int compareTo(Person other) {
         return this.firstname.compareTo(other.firstname);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Person)) return false;
+        Person person = (Person) obj;
+        return firstname.equals(person.firstname) &&
+                surname.equals(person.surname) &&
+                dateOfBirth.equals(person.dateOfBirth);
+    }
 }

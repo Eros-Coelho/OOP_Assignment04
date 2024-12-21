@@ -36,7 +36,7 @@ public class FriendGroup {
     }
 
 //    returns a copy of the friends set
-    public Set<Person> getAl(){
+    public Set<Person> getAll(){
     return new HashSet<>(friends);
     }
 
@@ -56,7 +56,7 @@ public class FriendGroup {
     }
 
 //    removes a person if it exists. return true if removed successfully, false if not
-    public boolean remove (Person person){
+    public boolean remove(Person person){
         return friends.remove(person);
     }
 
